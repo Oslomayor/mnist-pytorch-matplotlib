@@ -1,6 +1,9 @@
 # mnist-pytorch-matplotlib
 手写数字识别，GUI 演示 Demo，"hello world" project in Machine Learning
 
+## 演示效果
+![2022-06-07](https://github.com/Oslomayor/Markdown-Imglib/blob/master/Imgs/handwriting.png)  
+
 ## 文件说明
 文件1用于训练并保存模型，文件2用于演示模型
 ### 1. mnist.py
