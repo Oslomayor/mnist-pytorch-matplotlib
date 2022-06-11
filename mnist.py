@@ -137,7 +137,7 @@ def test_model(model, device, test_loader):
 
 
 if __name__ == '__main__':
-    model_name = './models/mnist_cnn_1.pkl'  # 模型保持路径，需要预先在代码所在目录下建立models文件夹
+    model_name = './models/mnist_cnn_1.pkl'  # 模型保存路径，需要预先在代码所在目录下建立models文件夹
     # display()  # 显示 mnist 图片
     if os.path.exists(model_name):
         model = torch.load(model_name)
